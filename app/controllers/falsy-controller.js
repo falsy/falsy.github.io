@@ -3,7 +3,7 @@
 define(['jquery', 'app'], function ($, app) {
   app.controller('falsyCtrl', ['$scope', '$location', 'hashService',
     function ($scope, $location, hashService) {
-
+      console.log($location.hash());
       $scope.$watch(function() { return $location.hash();
         }, function (value) {
           $scope.hash = hashService.hashInit();
