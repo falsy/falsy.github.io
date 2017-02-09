@@ -3,13 +3,13 @@
 define(['app'], function (app) {
   return app.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
-    $stateProvider.state('ar', {
-      url : '/ar',
+    $stateProvider.state('falsy', {
+      url : '/',
       templateUrl : '../app/views/main.html',
       controller : 'falsyCtrl'
     });
 
-    $urlRouterProvider.otherwise("/ar");
+    $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(true);
 
   });
