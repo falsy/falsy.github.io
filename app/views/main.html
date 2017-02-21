@@ -1,5 +1,0 @@
-<section>
-	<h2 class="breadcrumb" ng-if="hash.menu !== 'index'"><span>{{hash.menu}}</span></h2>
-	<!-- <h2 class="display-none-title">{{hash.menu}}</h2> -->
-	<div ng-include src="'app/views/' + hash.menu + '-view.html'" onload="onLoadSection(hash.menu)"></div>
-</section>
