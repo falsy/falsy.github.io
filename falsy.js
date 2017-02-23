@@ -5,7 +5,6 @@ jQuery(document).ready(function($) {
 	$(window).scroll(function() {
 		if($(window).scrollTop() < 2000) {
 			$('.visual').css('background-position', '50% ' + ($(window).scrollTop()/-5) + 'px');
-			console.log($('.visual').css('background-position'));
 		}
 	});
 
