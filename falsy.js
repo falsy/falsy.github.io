@@ -16,14 +16,31 @@ jQuery(document).ready(function($) {
 	$('.page-navigation a').on('click', function() {
 		event.preventDefault();
 
-		
+		var $targetEl = $(this).attr('href');
+
+		// if(!$($targetEl).hasClass('show')) {
+			// $('html, body').animate({
+			// 	scrollTop: 0
+			// }, 200);
+
+			$('#content > section').removeClass('show');
+			$($targetEl).addClass('show');
+		// }
+
+		setTimeout(function(){
+			var targetPositionTop = $($targetEl).offset().top - 60;
+			$('html, body').animate({
+				scrollTop: targetPositionTop
+			}, 400);
+		});
+
 	});
 
 	//retina
 	if(window.devicePixelRatio > 1) {
-        var images = $('img');
+        var $images = $('img');
 
-        images.each(function(i) {
+        $images.each(function(i) {
             var src = $(this).attr('src');
             var retinaSrc = src.replace(".png", "X2.png");
             $(this).attr('src', retinaSrc);
