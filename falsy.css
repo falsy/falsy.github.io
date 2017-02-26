@@ -118,7 +118,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 #journal-section header h2 {line-height: 170px; font-size: 48px; color: #1d1d1d; font-weight: 600; letter-spacing: 2px;}
 #journal {margin:0 -10px; padding-bottom: 80px; min-height: 400px;}
 #journal:after {content:''; clear: both; display: block;}
-#journal .box {width: 255px; margin:0 10px; float: left;}
+#journal .box {width: 200px; margin:0 10px; float: left;}
 #journal .box h3 {font-size: 11pt; color: #2d2d2d; padding: 40px 0 25px; border-bottom: 1px solid #ddd;}
 #journal .box ol {line-height: 11pt; font-size: 11pt; padding: 8px 0;}
 #journal .box ol li {margin-top: 18px; color: #444;}
@@ -134,7 +134,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 #essay-section header h2 {line-height: 170px; font-size: 48px; color: #1d1d1d; font-weight: 600; letter-spacing: 2px;}
 #essay {margin:0 -10px; padding-bottom: 80px; min-height: 400px;}
 #essay:after {content:''; clear: both; display: block;}
-#essay .box {width: 255px; float: left; margin:0 10px;}
+#essay .box {width: 200px; float: left; margin:0 10px;}
 #essay .box h3 {font-size: 11pt; color: #2d2d2d; padding: 40px 0 25px; border-bottom: 1px solid #ddd;}
 #essay .box ol {line-height: 11pt; font-size: 11pt; padding: 8px 0;}
 #essay .box ol li {margin-top: 18px; color: #444;}
@@ -144,3 +144,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 #essay-text section.show {display: block;}
 #essay-text section h4 {margin-bottom: 35px; font-size: 12pt; color: #fff;}
 #essay-text section p {margin-bottom: 20px; font-size: 11pt; line-height: 22pt; letter-spacing: 0.4px;}
+
+@media only screen and (min-height:800px) {
+    #essay-text section {padding: 140px 0;}
+}
