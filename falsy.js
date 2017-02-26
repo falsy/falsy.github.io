@@ -13,6 +13,12 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	$('.page-navigation a').on('click', function() {
+		event.preventDefault();
+
+		
+	});
+
 	//retina
 	if(window.devicePixelRatio > 1) {
         var images = $('img');

@@ -90,27 +90,38 @@ header nav {position:absolute; right:0; line-height: 175px; z-index: 10; font-si
 header nav a {display: inline-block; margin-left: 12px; transition:all 0.4s;}
 header h1 {padding-top: 66px; position: absolute; width: 100%;}
 
-#content {position: absolute; width: 100%; z-index: 10; background: #fff; width: 100%;}
-#content #journal-section header {background:#f7f7f7;}
+#content {position: relative; width: 100%; z-index: 10; background: #fff; width: 100%;}
+// #content #journal-section header {background:#f7f7f7;}
 /*#content header .container {opacity: 0; transition: opacity 1s;}
 #content header .container.show {opacity: 1;}*/
 
-#sub-header {height: 60px; position: fixed; width:100%; top:0; background: #fff; z-index:100; top:-60px; transition:top 0.4s;}
+#sub-header {height: 60px; position: fixed; width:100%; top:0; background: #fff; z-index:100; top:-60px; transition:top 0.4s; box-shadow:0 0 10px rgba(0,0,0,.05);}
 #sub-header.show {top:0;}
 #sub-header #sub-logo {float: left; margin-top: 15px;}
 #sub-header #sub-logo + p {float: left; line-height: 60px; margin-left: 10px; font-size: 13px;}
 #sub-header nav {line-height: 63px; position: relative; float: right; font-size: 15px; color: #444;}
 #sub-header nav a {display: inline-block; margin-left: 12px; transition:all 0.4s;}
 
-#content #journal-section header h2 {line-height: 182px; font-size: 46px; color: #2d2d2d; font-weight: 600; letter-spacing: 5px;}
+
+footer {position: relative; background: #fff; padding: 60px 0 120px;}
+
+#footer {margin:0 -10px;}
+#footer:after {content:''; clear: both; display: block;}
+#footer .box {width: 200px; margin: 0 10px; float: left;}
+#footer .box img {margin-top:10px;}
+#footer .box h4 {font-size: 10pt; color: #2d2d2d; padding: 20px 0 20px; letter-spacing: 1px;}
+#footer .box ol li {margin-top: 18px; color: #888; font-size: 11pt;}
+
+
+#content #journal-section header h2 {line-height: 170px; font-size: 48px; color: #1d1d1d; font-weight: 600; letter-spacing: 2px;}
 
 #journal {margin:0 -10px; padding-bottom: 80px; min-height: 600px;}
 #journal:after {content:''; clear: both; display: block;}
 #journal .box {width: 255px; margin:0 10px; float: left;}
 
-#journal .box h3 {font-size: 10pt; color: #2d2d2d; padding: 40px 0 25px; border-bottom: 1px solid #ddd;}
+#journal .box h3 {font-size: 11pt; color: #2d2d2d; padding: 40px 0 25px; border-bottom: 1px solid #ddd;}
 
-#journal .box ol {line-height: 11pt; font-size: 10pt; padding: 8px 0;}
+#journal .box ol {line-height: 11pt; font-size: 11pt; padding: 8px 0;}
 #journal .box ol li {margin-top: 18px; color: #444;}
 
 
@@ -129,4 +140,4 @@ header h1 {padding-top: 66px; position: absolute; width: 100%;}
 
 #essay .box section {padding: 80px 0 500px; text-align: center;}
 #essay .box section h4 {margin-bottom: 35px; font-size: 12pt; color: #2d2d2d;}
-#essay .box section p {margin-bottom: 20px; font-size: 10pt; line-height: 20pt; letter-spacing: .4px; color: #666;}
+#essay .box section p {margin-bottom: 20px; font-size: 10pt; line-height: 20pt; letter-spacing: 0.4px; color: #666;}
