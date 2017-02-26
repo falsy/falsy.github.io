@@ -17,15 +17,8 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 
 		var $targetEl = $(this).attr('href');
-
-		// if(!$($targetEl).hasClass('show')) {
-			// $('html, body').animate({
-			// 	scrollTop: 0
-			// }, 200);
-
-			$('#content > section').removeClass('show');
-			$($targetEl).addClass('show');
-		// }
+		$('#content > section').removeClass('show');
+		$($targetEl).addClass('show');
 
 		setTimeout(function(){
 			var targetPositionTop = $($targetEl).offset().top - 60;
@@ -34,6 +27,22 @@ jQuery(document).ready(function($) {
 			}, 400);
 		});
 
+	});
+
+	$('#essay a').on('click', function(){
+		event.preventDefault();
+
+		var $targetEl = $(this).attr('href');
+		$('#essay-text > section').removeClass('show');
+		$($targetEl).addClass('show');
+		$($targetEl).css('min-height', $(window).height() - 60);
+
+		setTimeout(function(){
+			var targetPositionTop = $($targetEl).offset().top - 60;
+			$('html, body').animate({
+				scrollTop: targetPositionTop
+			}, 400);
+		});
 	});
 
 	//retina
