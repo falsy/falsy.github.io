@@ -140,7 +140,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 #essay .box ol li {margin-top: 18px; color: #444;}
 
 
-#essay-text {background: #222; color: #bbb; text-align: center;}
+#essay-text {background: #111; color: #bbb; text-align: center;}
 #essay-text section {display: none; padding: 120px 0;}
 #essay-text section.show {display: block;}
 #essay-text section h4 {margin-bottom: 35px; font-size: 12pt; color: #fff;}
