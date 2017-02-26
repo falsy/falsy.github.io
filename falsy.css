@@ -141,7 +141,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 
 
 #essay-text {background: #222; color: #bbb; text-align: center;}
-#essay-text section {display: none; padding: 80px 0;}
+#essay-text section {display: none; padding: 120px 0;}
 #essay-text section.show {display: block;}
 #essay-text section h4 {margin-bottom: 35px; font-size: 12pt; color: #fff;}
 #essay-text section p {margin-bottom: 20px; font-size: 11pt; line-height: 22pt; letter-spacing: 0.4px;}
