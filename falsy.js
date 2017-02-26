@@ -21,6 +21,7 @@ jQuery(document).ready(function($) {
 		var $targetEl = $($(this).attr('href'));
 		$('#content > section').removeClass('show');
 		$targetEl.addClass('show');
+		$targetEl.css('min-height', $(window).height() - 60);
 
 		setTimeout(function(){
 			var targetPositionTop = $targetEl.offset().top - 60;
