@@ -95,7 +95,7 @@ header h1 {padding-top: 66px; position: absolute; width: 100%;}
 /*#content header .container {opacity: 0; transition: opacity 1s;}
 #content header .container.show {opacity: 1;}*/
 
-#journal-section, #essay-section, #works-section {display: none;}
+#journal-section, #works-section {display: none;}
 #journal-section.show, #essay-section.show, #works-section.show {display: block;}
 
 #sub-header {height: 60px; position: fixed; width:100%; top:0; background: #fff; z-index:100; top:-60px; transition:top 0.4s; box-shadow:0 0 10px rgba(0,0,0,.05);}
