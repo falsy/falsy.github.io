@@ -13,6 +13,8 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	$('#essay-section').css('min-height', $('#visual').height());
+	
 
 	//click
 	$('.page-navigation a').on('click', function() {
