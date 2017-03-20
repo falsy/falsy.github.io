@@ -106,7 +106,7 @@ header h1 {padding-top: 66px; position: absolute; width: 100%;}
 #sub-header nav a {display: inline-block; margin-left: 14px; transition:all 0.4s;}
 
 
-footer {position: relative; background: #fff; padding: 60px 0 120px;}
+footer {position: relative; background: #f7f7f7; padding: 60px 0 120px;}
 
 #footer {margin:0 -10px;}
 #footer:after {content:''; clear: both; display: block;}
