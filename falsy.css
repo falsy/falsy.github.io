@@ -126,7 +126,7 @@ footer {position: relative; background: #000; padding: 60px 0 120px;}
 
 #works-section {background: #f7f7f7;}
 #works-section header h2 {font-size: 24px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 240px 0 40px;}
-#works {margin:0 -10px; padding-bottom: 80px; min-height: 400px;}
+#works {margin:0 -10px; padding-bottom: 240px; min-height: 400px;}
 #works:after {content:''; clear: both; display: block;}
 #works > div {padding-bottom: 70px;}
 #works .box {width: 255px; margin:0 10px; float: left;}
