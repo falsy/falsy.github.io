@@ -1,6 +1,13 @@
 # FALSY.ME
 
 
+###v0.4.0
+update navigation and page
+> guide, works, essay
+
+change font
+> Unified, Ubuntu -> Proxima Nova
+
 ###v0.3.0
 update navigation and page
 > guide, quickstart, works

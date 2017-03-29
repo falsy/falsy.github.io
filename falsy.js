@@ -1,20 +1,21 @@
 jQuery(document).ready(function($) {
 
+	var $window = $(window);
 
 	//scroll
-	$(window).scroll(function() {
-		if($(window).scrollTop() < 2000) {
-			$('#visual').css('background-position', '50% ' + ($(window).scrollTop()/-5) + 'px');
+	$window.scroll(function() {
+		if($window.scrollTop() < 2000) {
+			$('#visual').css('background-position', '50% ' + ($window.scrollTop()/-5) + 'px');
 		}
-		if($(window).scrollTop() > ($(window).height()/2)) {
+		if($window.scrollTop() > ($window.height()/2)) {
 			$('#sub-header').addClass('show');
 		} else {
 			$('#sub-header').removeClass('show');
 		}
 	});
 
-	$('#essay-section').css('min-height', $('#visual').height());
-	
+	//section height
+	$('.content-area').css('min-height', $('#visual').height());
 
 	//click
 	$('.page-navigation a').on('click', function() {
