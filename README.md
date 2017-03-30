@@ -2,6 +2,8 @@
 Personal website
 
 
+### v0.5.2
+##### add responsive style -wide
 
 ### v0.5.0
 ##### change font
