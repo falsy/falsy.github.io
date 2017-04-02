@@ -114,6 +114,7 @@ footer {position: relative; background: #000; padding: 60px 0 120px;}
 
 .pf-column .thumb-img.js-thumb {background-image:url(./img/js.png);}
 
+.pf-column .thumb-img.mongo-thumb {background-image:url(./img/mongo.png);}
 .pf-column .thumb-img.babel-thumb {background-image:url(./img/babel.png);}
 .pf-column .thumb-img.nvm-thumb {background-image:url(./img/nvm.png);}
 
