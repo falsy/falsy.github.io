@@ -108,12 +108,15 @@ footer {position: relative; background: #000; padding: 60px 0 120px;}
 .content-container .box ol li {margin-top: 18px; color: #444;}
 
 /*.one-box {font-size: 13.5px; color: #444; margin:0 1%; float:left;}*/
-.content-container .text-box {font-size: 13.5px; color: #444; width: 35%;}
+.content-container .text-box {font-size: 13.5px; color: #444;}
+.content-container .text-box.two-box {width: 35%;}
 .content-container .text-box > div {margin-bottom: 60px;}
-.post-type {background:#569b90; display: inline-block; color: #fff; padding: 4px 5px; margin: 0 3px 0 0;}
-.post-version {background:#fbcf2d; display: inline-block; color: #222; padding: 4px 5px; margin: 0 3px 0 0;}
-.post-lan {background: #e8d9c6; display: inline-block; color: #222; padding: 4px 5px; margin: 0 3px 0 0;}
-.text-box a {display: block; margin-top: 10px;}
+.text-box a {line-height: 23px;}
+.post-type {display: inline-block; color: #569b90; margin: 0 3px 0 0;}
+.post-lan {background: #ececec; display: inline-block; color: #222; padding: 4px 5px; margin: 0 3px 0 0;}
+.text-box a {display: block; margin-top: 5px;}
+
+
 
 .pf-column {position: relative; cursor: pointer; margin-bottom: 30px;}
 .pf-column .thumb-img {background-size: cover; background-position: center; background-repeat: no-repeat; height: 200px;}
