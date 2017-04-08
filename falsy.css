@@ -72,7 +72,7 @@ header .intro {height: 170px; background: #fff; position: absolute; width: 100%;
 header #visual {position: fixed; width: 100%; height: 100%; background: url(./img/visual.jpg) center 0px no-repeat; background-size: cover;}
 header p {position:absolute; line-height: 175px; color: #444; font-size: 14px; left: 1%;}
 header nav {position:absolute; right: 1%; line-height: 175px; z-index: 10; font-size: 14px; color: #444;}
-header nav a {display: inline-block; margin-left: 14px; transition:all 0.4s;}
+header nav a {display: inline-block; margin-left: 18px; transition:all 0.4s;}
 header h1 {padding-top: 66px; position: absolute; width: 100%;}
 
 #content {position: relative; width: 100%; z-index: 10; background: #fff; width: 100%;}
@@ -82,19 +82,19 @@ header h1 {padding-top: 66px; position: absolute; width: 100%;}
 #sub-header #sub-logo {float: left; margin-top: 15px;}
 #sub-header #sub-logo + p {float: left; line-height: 60px; margin-top: 3px; margin-left: 10px; font-size: 13px; color: #444;}
 #sub-header nav {line-height: 63px; position: relative; float: right; font-size: 13px; color: #444;}
-#sub-header nav a {display: inline-block; margin-left: 14px; transition:all 0.4s;}
+#sub-header nav a {display: inline-block; margin-left: 18px; transition:all 0.4s;}
 #sub-header .container {padding:0 1%;}
 
 
-footer {position: relative; background: #000; padding: 60px 0 120px;}
+footer {position: relative; background: #fff; padding: 60px 0 120px;}
 
 #footer {}
 #footer:after {content:''; clear: both; display: block;}
 #footer .box {width: 18%; margin: 0 1%; float: left;}
 #footer .box img {margin-top:10px;}
-#footer .box h4 {color: #fff; padding: 20px 0 20px; font-size: 14px; letter-spacing: 1.3px;}
-#footer .box ol li {margin-top: 18px; color: #999; font-size: 14px;}
-#footer .box ol li a:hover {color: #fff;}
+#footer .box h4 {color: #222; padding: 20px 0 20px; font-size: 13px; font-weight: bold; letter-spacing: 1px;}
+#footer .box ol li {margin-top: 18px; color: #777; font-size: 13px;}
+#footer .box ol li a:hover {color: #000;}
 
 .content-area {background: #f7f7f7;}
 .content-area header h2 {font-size: 32px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 80px 1% 40px;}
@@ -109,7 +109,7 @@ footer {position: relative; background: #000; padding: 60px 0 120px;}
 
 /*.one-box {font-size: 13.5px; color: #444; margin:0 1%; float:left;}*/
 .content-container .text-box {font-size: 13.5px; color: #444;}
-.content-container .text-box.two-box {width: 35%;}
+.content-container .text-box.two-box {width: 73%;}
 .content-container .text-box > div {margin-bottom: 60px;}
 .text-box a {line-height: 23px;}
 .post-type {display: inline-block; color: #569b90; margin: 0 3px 0 0;}
