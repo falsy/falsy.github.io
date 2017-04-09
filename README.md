@@ -1,12 +1,8 @@
 # FALSY.ME
 Personal Website
 
-
-### v0.6.0
-##### update navigation and page
-> note, contact
-
-##### update footer style
+### v0.5.3
+##### modify footer style
 
 ### v0.5.2
 ##### add responsive style -wide
