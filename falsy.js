@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 	});
 
 	//section height
-	$('.content-area').css('min-height', $('#visual').height());
+	$('.content-area > .container').css('min-height', $('#visual').height());
 
 	//click
 	$('.page-navigation a').on('click', function() {
