@@ -86,7 +86,7 @@ header h1 {padding-top: 66px; position: absolute; width: 100%;}
 #sub-header .container {padding:0 1%;}
 
 
-footer {position: relative; background: #fff; padding: 60px 0 120px;}
+footer {position: relative; background: #f2f4f7; padding: 60px 0 120px;}
 
 #footer {}
 #footer:after {content:''; clear: both; display: block;}
@@ -96,7 +96,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 #footer .box ol li {margin-top: 18px; color: #777; font-size: 13px;}
 #footer .box ol li a:hover {color: #000;}
 
-.content-area {background: #f7f7f7;}
+.content-area {background: #fff;}
 .content-area header h2 {font-size: 32px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 80px 1% 40px;}
 .content-container {padding-bottom: 120px; min-height: 400px;}
 .content-container:after {content:''; clear: both; display: block;}
@@ -124,6 +124,7 @@ footer {position: relative; background: #fff; padding: 60px 0 120px;}
 
 .pf-column .thumb-img.js-thumb {background-image:url(./img/js.png);}
 
+.pf-column .thumb-img.webpack-thumb {background-image:url(./img/webpack.png);}
 .pf-column .thumb-img.mongo-thumb {background-image:url(./img/mongo.png);}
 .pf-column .thumb-img.babel-thumb {background-image:url(./img/babel.png);}
 .pf-column .thumb-img.nvm-thumb {background-image:url(./img/nvm.png);}

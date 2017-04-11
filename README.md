@@ -1,6 +1,11 @@
 # FALSY.ME
 Personal Website
 
+
+### v0.5.5
+##### update thumbnail image
+##### add post(webpac + angular + es6)
+
 ### v0.5.3
 ##### modify footer style
 
