@@ -125,6 +125,8 @@ footer .container {background: #f2f4f7; padding-top: 60px; padding-bottom: 140px
 
 .pf-column .thumb-img.js-thumb {background-image:url(./img/js.png);}
 
+
+.pf-column .thumb-img.nginx-thumb {background-image:url(./img/nginx.png);}
 .pf-column .thumb-img.webpack-thumb {background-image:url(./img/webpack.png);}
 .pf-column .thumb-img.mongo-thumb {background-image:url(./img/mongo.png);}
 .pf-column .thumb-img.babel-thumb {background-image:url(./img/babel.png);}
