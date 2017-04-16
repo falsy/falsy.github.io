@@ -98,8 +98,9 @@ footer .container {background: #f2f4f7; padding-top: 60px; padding-bottom: 140px
 #footer .box ol li a:hover {color: #000;}
 
 .content-area {background: #fff;}
-.content-area header h2 {font-size: 32px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 80px 1% 40px;}
-.content-container {padding-bottom: 120px; min-height: 400px;}
+.content-area header h2 {font-size: 32px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 90px 1% 40px; border-top: 1px solid #e5e5e5;}
+.content-area:first-child header h2 {border-top:0;}
+.content-container {padding-bottom: 80px; min-height: 400px;}
 .content-container:after {content:''; clear: both; display: block;}
 .content-container > div {padding-bottom: 70px;}
 .content-container .box {width: 23%; margin:0 1%; float: left;}
@@ -108,10 +109,14 @@ footer .container {background: #f2f4f7; padding-top: 60px; padding-bottom: 140px
 .content-container .box ol {line-height: 11pt; font-size: 11pt; padding: 8px 0;}
 .content-container .box ol li {margin-top: 18px; color: #444;}
 
+
+#guide-section .content-container > div:last-child {padding-bottom:10px;}
+
 /*.one-box {font-size: 13.5px; color: #444; margin:0 1%; float:left;}*/
 .content-container .text-box {font-size: 13.5px; color: #444;}
 .content-container .text-box.two-box {width: 73%;}
 .content-container .text-box > div {margin-bottom: 60px;}
+.content-container .text-box > div:last-child {margin-bottom:0;}
 .text-box a {line-height: 23px;}
 .post-type {display: inline-block; color: #569b90; margin: 0 3px 0 0;}
 .post-lan {background: #ececec; display: inline-block; color: #222; padding: 4px 5px; margin: 0 3px 0 0;}
