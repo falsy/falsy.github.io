@@ -115,7 +115,7 @@ footer .container {background: #f2f4f7; padding-top: 60px; padding-bottom: 100px
 /*.one-box {font-size: 13.5px; color: #444; margin:0 1%; float:left;}*/
 .content-container .text-box {font-size: 13.5px; color: #444;}
 .content-container .text-box.two-box {width: 73%;}
-.content-container .text-box > div {margin-bottom: 60px;}
+.content-container .text-box > div {margin-bottom: 25px;}
 .content-container .text-box > div:last-child {margin-bottom:0;}
 .text-box a {line-height: 23px;}
 .post-type {display: inline-block; color: #569b90; margin: 0 3px 0 0;}
