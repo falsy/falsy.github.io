@@ -68,8 +68,9 @@ a:hover {color: #000;}
 #mfPreviewBar {display: none;}
 
 header {text-align: center; height: 100%;}
-header .intro {height: 170px; background: #fff; position: absolute; width: 100%;}
-header #visual {position: fixed; width: 100%; height: 100%; background: url(./img/visual.jpg) center 0px no-repeat; background-size: cover;}
+header .container {height: 100%;}
+header .intro {height: 170px; background: #fff; position: absolute; width: 100%; top:0; z-index: 100;}
+header #visual {position: absolute; width: 100%; height: 94%; background: url(./img/visual.jpg) center 0px no-repeat; background-size: cover; top: 0; left: 0;}
 header p {position:relative; line-height: 175px; color: #444; font-size: 14px; left: 1%; float: left;}
 header nav {position:relative; right: 1%; line-height: 175px; z-index: 10; font-size: 14px; color: #444; float: right;}
 header nav a {display: inline-block; margin-left: 14px; transition:all 0.4s;}
@@ -79,9 +80,9 @@ header h1 {padding-top: 66px; display: inline-block; height: 170px;}
 
 #sub-header {height: 60px; position: fixed; width:100%; top:0; background: #fff; z-index:100; top:-60px; transition:top 0.4s; box-shadow:0 0 10px rgba(0,0,0,.05);}
 #sub-header.show {top:0;}
-#sub-header #sub-logo {float: left; margin-top: 15px;}
-#sub-header #sub-logo + p {float: left; line-height: 60px; margin-top: 3px; margin-left: 10px; font-size: 13px; color: #444;}
-#sub-header nav {line-height: 63px; position: relative; float: right; font-size: 13px; color: #444;}
+#sub-header #sub-logo {position: absolute; left: 1%; margin: 15px 0 0 40px;}
+#sub-header #sub-logo + p {float: left; line-height: 60px; margin: 3px 0 0 40px; font-size: 13px; color: #444;}
+#sub-header nav {line-height: 63px; position: absolute; right: 1%; margin-right: 40px; font-size: 13px; color: #444;}
 #sub-header nav a {display: inline-block; margin-left: 14px; transition:all 0.4s;}
 #sub-header .container {padding:0 50px;}
 
@@ -99,7 +100,7 @@ footer .container {background: #f2f4f7; padding-top: 60px; padding-bottom: 100px
 
 .content-area {background: #fff;}
 .content-area header h2 {font-size: 32px; color: #1d1d1d; font-weight: 600; text-align: left; padding: 90px 1% 40px; border-top: 1px solid #e5e5e5;}
-.content-area:first-child header h2 {border-top:0;}
+.content-area:first-child header h2 {border-top:0; padding-top: 60px;}
 .content-container {padding-bottom: 80px; min-height: 400px;}
 .content-container:after {content:''; clear: both; display: block;}
 .content-container > div {padding-bottom: 70px;}

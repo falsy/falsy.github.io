@@ -2,10 +2,13 @@
 Personal Website
 
 
-### v.0.5.8
+### v0.5.9
+* modify visual stlye
+
+### v0.5.8
 * add section line
 
-### v.0.5.7
+### v0.5.7
 * add post(Nginx and SSH)
 * update post(webpac + angular + es6)
 
