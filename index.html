@@ -18,7 +18,6 @@
         trial.type = 'text/javascript';
         trial.async = true;
         trial.src = protocol + path;
-        console.log(trial);
         var head = document.getElementsByTagName("head")[0];
         head.appendChild(trial);
     })();
@@ -461,22 +460,6 @@
         </div>
       </footer>
     </div>
-  <script src="./falsy.js"></script>
-  <script>
-    jQuery(document).ready(function($) {
-      $.ajax({
-        method: 'POST',
-        url: 'http://finlife.fss.or.kr/finlifeapi/companySearch.json',
-        data: {
-          auth : '61e2eea3fc49c717627068a39f4a08a8',
-          topFinGrpNo: '020000',
-          pageNo: '1'
-        },
-        done: function(data) {
-        console.log(data);
-        }
-      });
-    });
-  </script>
+    <script src="./falsy.js"></script>
   </body>
 </html>
