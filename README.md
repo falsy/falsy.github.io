@@ -2,6 +2,9 @@
 Personal Website
 
 
+### v6.0.0
+* add post(webpack2)
+
 ### v0.5.9
 * modify visual stlye
 
@@ -10,11 +13,11 @@ Personal Website
 
 ### v0.5.7
 * add post(Nginx and SSH)
-* update post(webpac + angular + es6)
+* update post(webpack + angular + es6)
 
 ### v0.5.5
 * update thumbnail image
-* add post(webpac + angular + es6)
+* add post(webpack + angular + es6)
 
 ### v0.5.3
 * modify footer style
