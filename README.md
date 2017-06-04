@@ -2,7 +2,7 @@
 Personal Website
 
 
-### v6.0.0
+### v0.6.0
 * add post(webpack2)
 
 ### v0.5.9
