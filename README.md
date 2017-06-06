@@ -2,6 +2,9 @@
 Personal Website
 
 
+### v0.6.1
+* add post(basic java #1)
+
 ### v0.6.0
 * add post(webpack2)
 
