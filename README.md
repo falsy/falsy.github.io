@@ -2,6 +2,9 @@
 Personal Website
 
 
+### 2015-06-08
+* add post(ecmascript 2016)
+
 ### v0.6.1
 * add post(basic java #1)
 
