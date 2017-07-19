@@ -22,22 +22,10 @@
           head.appendChild(trial);
       })();
     </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-81296414-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </head>
   <body>
     <div id="wrap">
       <header>
-        <div class="container">
-          <div id="visual"></div>
-        </div>
         <div class="intro">
           <div class="container">
             <h1><a href="/"><img src="./img/logo.png" width="177" height="42" alt="falsy logo"/></a></h1>
@@ -46,45 +34,56 @@
       </header>
       <div id="content"></div>
       <footer>
-        <div>
-          <div class="container">
-            <div id="footer">
-              <div class="box">
-                <img src="./img/sub_logo.png" width="30" height="30" alt="falsy sub logo"/> 
-              </div>
-              <div class="box">
-                <h4>FOLLW</h4>
-                <ol>
-                  <li><a href="https://www.facebook.com/falsyme" target="_blank">Facebook</a></li>
-                  <li><a href="https://www.linkedin.com/in/falsy/" target="_blank">LinkedIn</a></li>
-                </ol>
-              </div>
-              <div class="box">
-                <h4>DEVELOP</h4>
-                <ol>
-                  <li><a href="https://github.com/falsy" target="_blank">Github</a> / <a href="https://gist.github.com/falsy" target="_blank">-Gist</a></li>
-                  <li><a href="https://jsfiddle.net/user/falsy/" target="_blank">JSFiddle</a></li>
-                </ol>
-              </div>
-              <div class="box">
-                <h4>BESIDES</h4>
-                <ol>
-                  <li><a href="https://soundcloud.com/falsyme" target="_blank">SoundCloud</a></li>
-                  <li><a href="https://brunch.co.kr/@falsy" target="_blank">Brunch</a></li>
-                </ol>
-              </div>
-              <div class="box">
-                <h4>CONTACT</h4>
-                <ol>
-                  <li><a href="mailTo:me@falsy.me">me@falsy.me</a></li>
-                  <li>Seoul, Korea</li>
-                </ol>
-              </div>
+        <div class="container">
+          <div id="footer">
+            <div class="box">
+              <img src="./img/sub_logo.png" width="30" height="30" alt="falsy sub logo"/> 
+            </div>
+            <div class="box">
+              <h4>FOLLW</h4>
+              <ol>
+                <li><a href="https://www.facebook.com/falsyme" target="_blank">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/falsy/" target="_blank">LinkedIn</a></li>
+              </ol>
+            </div>
+            <div class="box">
+              <h4>DEVELOP</h4>
+              <ol>
+                <li><a href="https://github.com/falsy" target="_blank">Github</a> / <a href="https://gist.github.com/falsy" target="_blank">-Gist</a></li>
+                <li><a href="https://jsfiddle.net/user/falsy/" target="_blank">JSFiddle</a></li>
+              </ol>
+            </div>
+            <div class="box">
+              <h4>BESIDES</h4>
+              <ol>
+                <li><a href="https://soundcloud.com/falsyme" target="_blank">SoundCloud</a></li>
+                <li><a href="https://medium.com/@Falsy" target="_blank">Medium</a></li>
+              </ol>
+            </div>
+            <div class="box">
+              <h4>CONTACT</h4>
+              <ol>
+                <li><a href="mailTo:me@falsy.me">me@falsy.me</a></li>
+                <li>Seoul, Korea</li>
+              </ol>
             </div>
           </div>
         </div>
       </footer>
     </div>
-    <script src="./falsy.js"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        //retina
+        if(window.devicePixelRatio > 1) {
+          var $images = $('img');
+
+          $images.each(function(i) {
+            var src = $(this).attr('src');
+            var retinaSrc = src.replace(".png", "X2.png");
+            $(this).attr('src', retinaSrc);
+          });
+        }
+      });
+    </script>
   </body>
 </html>
