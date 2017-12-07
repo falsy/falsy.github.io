@@ -1,11 +1,8 @@
-# FALSY.ME
-Personal Website
+# FALSY
+Personal Website v1
 
 
-### 2017-07-17
-* delete contents
-
-### 2017-06-08
+### 2015-06-08
 * add post(ecmascript 2016)
 
 ### v0.6.1
