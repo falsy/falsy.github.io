@@ -2,6 +2,10 @@
 Personal Website v1
 
 
+### 2018-03-26
+* modify link
+* delete essay
+
 ### 2015-06-08
 * add post(ecmascript 2016)
 
